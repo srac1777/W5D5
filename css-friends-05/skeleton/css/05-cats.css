@@ -1,0 +1,33 @@
+/* PHASE 5: Cats */
+.content-header{
+  z-index: 1;
+  width: 900px;
+  height: 200px;
+  background: url("http://appacademy.github.io/css-friends/shared/img/cats.jpg");
+  background-size: cover;
+  position: relative;
+
+  /* justify-content: space-between; */
+  /* display: flex; */
+}
+
+.content-header h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 240px;
+  font-size: 36px;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: #000 0 0 10px;
+}
+
+.content-button {
+    background: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10%;
+    border: 1px solid black;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
